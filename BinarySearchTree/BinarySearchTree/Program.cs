@@ -20,8 +20,10 @@ namespace BinarySearchTree
             tree.AddNode(67);
             Console.WriteLine("Enter node to search:");
             int element = Convert.ToInt32(Console.ReadLine());
-            //tree.search(element, tree);
-            //tree.Display();
+
+            tree.search(element, tree);
+
+            tree.Display();
         }
     }
 }
